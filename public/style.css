@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Ewert&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container-mae{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #0081a7;
+}
+
+
+.container-email{
+    margin: 5px;
+}
+
+.container-senha{
+    margin: 5px;
+
+}
+
+.container-enviar{
+    margin: 5px;
+}
+
+.container-enviar button{
+    background-color: #00afb9;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.container-google{
+    margin: 5px;
+    background-color: #00afb9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+
+.container-google button{
+    background-color: #00afb9;
+    border: none;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logoGoogle{
+    padding-right: 10px;
+}
+
+.container-facebook{
+    margin: 5px;
+}
+
+.container-facebook button{
+    background-color: #00afb9;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+input{
+    width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #00afb9;
+}
+
+h2{
+    color: white;
+}
+
+
+
+.container-top{
+    display: flex;
+    width: 100%;
+    min-height: 70px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0081a7;
+    color: white;
+}
+
+
+.corpo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+
+.container-sair{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-sair button{
+    background-color: #00afb9;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    color: white;
+}
+
+.container-deslogar{
+    margin: 5px;
+
+}
+
+.container-usuario{
+    margin: 5px;
+}
+
+.input-enviar{
+    width: 100%;
+    background-color: #0081a7;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.input-enviar input{
+    width: 95%;
+    margin: 5px;
+}
+
+.input-enviar button{
+    background-color: #00afb9;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    margin: 5px;
+}
+
+li{
+    color: black;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    max-width: 200px;
+}
+
+.container-tudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 100vh;
+}
+
+#tudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 100px;
+    background-color: aqua;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+
+label{
+    padding: 2px;
+    background-color: #00afb9;
+    border-radius: 5px;
+}
+
+#escondeImagem{
+    background-color: #00afb9;
+    border-radius: 10px;
+}
+
+h1{
+    font-family: 'Ewert', cursive;
+    color: white;
+    font-size: 60px;
+}
+
+span{
+    color: #00afb9;
+}
+
+.footerTw10{
+    position: fixed;
+    bottom: 10px;
+    display: flex;
+
+}
+
+.footerTw10 a{
+    color: white;
+    padding-left: 10px;
+}
+
+.footerTw10 p{
+    color: #00afb9;
+}
+
+
+.divReset{
+    display: flex;
+    position: static;
+    justify-content: end;
+    align-items: flex-end;
+    width: auto;
+    min-height: auto;
+    cursor: zoom-in;
+}
+
+
+
+.box-cookies.hide {
+    display: none !important;
+  }
+  
+  .box-cookies {
+    position: fixed;
+    background: rgba(0, 0, 0, .9);
+    width: 100%;
+    z-index: 998;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .box-cookies .msg-cookies,
+  .box-cookies .btn-cookies {
+    text-align: center;
+    padding: 25px;
+    color: #fff;
+    font-size: 18px;
+  }
+  
+  .box-cookies .btn-cookies {
+    background: #1e88e5;
+    cursor: pointer;
+    align-self: normal;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .box-cookies {
+      flex-direction: column;
+    }
+  }
+
+
